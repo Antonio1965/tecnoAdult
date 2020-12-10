@@ -8,7 +8,19 @@ function App() {
   return (
     <>
     <NavBar/>
-    <ListProduct/>
+    <ListProduct tipo='Tipo de Producto'
+    lista=
+    {[
+      'imagen1',
+      'imagen2',
+      'imagen3',
+      'imagen4',
+      'imagen5',
+      'imagen6',
+      'imagen7',
+      
+    ]}
+    />
    
     
     <Footer/>
